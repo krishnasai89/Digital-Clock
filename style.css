@@ -1,0 +1,50 @@
+body{
+    background: #000;
+    padding: 8rem;
+}
+
+.headpart{
+    color: whitesmoke;
+    text-align: center;
+    margin: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 3px 4px blueviolet,
+    -2px -3px 4px rgb(76, 143, 237),
+    2px -3px 4px skyblue;
+    font-size: xx-large;
+    text-transform: capitalize;
+    animation: slidein 3s;
+}
+
+@keyframes slidein {
+    from {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+    
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+.bodypart{
+    color: aliceblue;
+    text-align: center;
+    margin: 2rem;
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    color: chartreuse;
+    animation: slideinopp 3s;
+}
+
+@keyframes slideinopp {
+    from {
+        translate: -150vw 0;
+        scale: 200% 1;
+    }
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
